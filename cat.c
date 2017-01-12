@@ -24,13 +24,13 @@ int main(int argc, char const *argv[])
                     prefix = "st";
                     printf("The cat is the %d%s item in the box",counter,prefix);
                 }
-                else if(counter % 10 == 2)
+                else if(counter % 10 == 2 && counter < 100)
                  {
                     prefix = "nd";
                     printf("The cat is the %d%s item in the box",counter,prefix);
                     
                 }
-                 else if(counter % 10 == 3)
+                 else if(counter % 10 == 3 && counter < 100)
                  {
                     prefix = "rd";
                     printf("The cat is the %d%s item in the box",counter,prefix);
