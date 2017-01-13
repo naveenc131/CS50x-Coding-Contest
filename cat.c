@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
                     printf("The cat is the %d%s item in the box",counter,prefix);
                     
                 }
-                else
+                else if(counter > 100 && counter % 100 < 100)
                 {
                     prefix = "th";
                     printf("The cat is the %d%s item in the box",counter,prefix);
